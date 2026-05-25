@@ -1,6 +1,13 @@
+
 # Phishing URL Risk Analyzer
 
+![Dashboard](screenshots/dashboard.png)
+
 A professional phishing risk assessment dashboard powered by machine learning, HTML inspection, SSL/DNS/WHOIS checks, and URL intelligence analysis.
+
+## Overview
+
+This project combines machine learning predictions, HTML inspection, SSL/DNS/WHOIS validation, and intelligence-based URL analysis to detect potentially malicious phishing websites.
 
 ## Features
 
@@ -40,19 +47,24 @@ phishing-url-risk-analyzer/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+```
 
 
-Installation
+## Installation
 
+```bash
 pip install -r requirements.txt
+```
 
 
-Run the App
+## Run the App
 
+```bash
 streamlit run app/streamlit_app.py
+```
 
 
-Disclaimer
+## Disclaimer
 
 This tool provides automated risk assessment support and does not guarantee absolute security. Suspicious URLs should also be verified using independent security sources.
 
@@ -76,11 +88,23 @@ This tool provides automated risk assessment support and does not guarantee abso
 ![PDF Report](screenshots/pdf-report.png)
 
 
+## Technologies Used
+
+- Python
+- Streamlit
+- XGBoost
+- Pandas
+- Scikit-learn
+- BeautifulSoup
+- Requests
+- ReportLab
+- Joblib
+
+
 
 
 ## Author
 
 Developed by SiberTechAi
 
-Website:
-https://sibertechai.com
+Website: [https://sibertechai.com](https://sibertechai.com)
