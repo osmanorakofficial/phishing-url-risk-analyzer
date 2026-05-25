@@ -43,6 +43,9 @@ CUSTOM_CSS = """
 
 
 
+
+
+
 .hero-content {
     display: flex;
     justify-content: space-between;
@@ -196,6 +199,59 @@ CUSTOM_CSS = """
     font-size: 13px;
     margin-top: 20px;
 }
+
+/* Final contrast fixes for Streamlit dark theme */
+.stApp {
+    background-color: #0b111b !important;
+}
+
+.section-title {
+    color: #f8fafc !important;
+}
+
+.metric-card,
+.signal-card,
+.export-card {
+    background: #ffffff !important;
+    color: #0f172a !important;
+}
+
+.metric-card *,
+.signal-card *,
+.export-card * {
+    color: #0f172a !important;
+}
+
+.metric-label,
+.metric-help,
+.small-muted {
+    color: #475569 !important;
+}
+
+.status-low {
+    background: #dcfce7 !important;
+    color: #166534 !important;
+}
+
+.status-medium {
+    background: #fef9c3 !important;
+    color: #854d0e !important;
+}
+
+.status-high {
+    background: #ffedd5 !important;
+    color: #9a3412 !important;
+}
+
+.status-critical {
+    background: #fee2e2 !important;
+    color: #991b1b !important;
+}
+
+.footer-note {
+    color: #94a3b8 !important;
+}
+
 </style>
 """
 
